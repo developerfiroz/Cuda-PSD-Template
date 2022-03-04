@@ -1,0 +1,85 @@
+
+@media only screen and (max-width:1200px){
+    header{
+        height: 85vh;
+    }
+}
+@media only screen and (max-width:1024px){
+    .hero-text-box{
+        width: 100%;
+    }
+    .row {
+        margin: 0 1.5rem;
+    }
+    .main-nav{
+        display: none;
+    }
+    .mobile-menu span{
+        display: block;
+        padding-top: .5rem;
+    }
+    html{
+        font-size: 55.5%;
+    }
+    .testimonial{
+        text-align: center;
+    }
+    .client-photo, 
+    .client-review{
+        float: none;
+        width: 100%;
+    }
+    .contact-section form{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width:980px){
+    header{
+        height: 65vh;
+    }
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    
+    .hero-text-box{
+        padding: 0 .5rem;
+    }
+}
+@media only screen and (max-width:768px){
+   
+     h1{
+        font-size: 3.5rem;
+    }
+    .universal-div h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    .universal-div .little-description{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media only screen and (max-width:480px){
+    .span_1_of_4{
+        width: 100%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .universal-div h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 1.8rem;
+    }
+    .testimonial .col:nth-child(3),
+.testimonial .col:nth-child(4){
+    margin-top: 4rem;
+}
+}
